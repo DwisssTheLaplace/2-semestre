@@ -1,1 +1,12 @@
+whoami - maquina e user
+hostname - maquina
+pwd - caminho que você está
 
+cd .. - volta um caminho
+cd - 
+ls - lista diretorios
+mkdir - cria um arquivo
+
+rm -rf ANCHIETA - Apaga a pasta ANCHIETA (rm remove) (-rf ignora restrições)
+
+touch - cria arquivos vazios
