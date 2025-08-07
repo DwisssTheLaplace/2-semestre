@@ -10,3 +10,5 @@ mkdir - cria um arquivo
 rm -rf ANCHIETA - Apaga a pasta ANCHIETA (rm remove) (-rf ignora restrições)
 
 touch - cria arquivos vazios
+mv - renomeia arquivo / SE mv nomedoarquivo nomedapasta (é movido para a pasta) | modifica ou move
+mv *txt REPO - move todos os arquivos txt para a pasta
