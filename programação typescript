@@ -13,3 +13,5 @@ touch - cria arquivos vazios
 mv - renomeia arquivo / SE mv nomedoarquivo nomedapasta (é movido para a pasta) | modifica ou move
 mv *txt REPO - move todos os arquivos txt para a pasta
 npm i -g typescript - (Instala em formato Global) 
+
+npm init - cria o package json
