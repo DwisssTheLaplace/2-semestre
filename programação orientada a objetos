@@ -7,3 +7,32 @@ java:
  - Vs Code
  - Eclipse (IDLE)
 
+java - comentarios:
+ em bloco (/*) (*/) - por linha //
+
+-----------------------------------------------------------------------------------
+/*
+EXERCICIO 01- Crie um programa que calcule a média
+escolar das notas NP1, NP2 e INTEGRATIVA
+*/
+
+
+public class MyClass {
+  public static void main(String args[]) {
+    // VARIAVEIS
+    double media, nota1, nota2, integrativa; 
+    
+    // ENTRADAS
+    nota1 = 5.00;
+    nota2 = 10.00;
+    integrativa = 8.00;
+    
+    // PROCESSAMENTO
+    media = (nota1 + nota2 + integrativa) / 3;
+    
+    // SAIDAS
+    System.out.println(media);
+
+  }
+}
+-----------------------------------------------------------------------------------
