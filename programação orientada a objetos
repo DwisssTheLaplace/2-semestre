@@ -40,3 +40,32 @@ public class MyClass {
   }
 }
 -----------------------------------------------------------------------------------
+/*
+Crie um programa que receberá Salario, número de dependentes e percentual de imposto.
+    O programa devera:
+ - Acrescentar 10% o salário por dependente.
+ - Calcular o salario líquido deduzindo o valor do imposto
+*/
+import java.util.Scanner;
+
+public class MyClass {
+  public static void main(String args[]) {
+    double salario, percImp, pDependentes, salarioB, salarioL;
+    int dependentes;
+    
+    Scanner input = new Scanner(System.in);
+    System.out.println("Insira seu salario: ");
+    salario = input.nextDouble();
+    System.out.println("Insira quantos dependentes você possui: ");
+    dependentes = input.nextInt();
+    System.out.println("Insira o percentual do imposto: ");
+    percImp = input.nextDouble();
+    
+    pDependentes = ((dependentes * 10.00) / 100);
+    salarioB = (salario * (1 + pDependentes));
+    salarioL = (salarioB - ((salarioB / 100) * percImp));
+    
+    System.out.println("Seu salario liquido é: " + salarioL);
+  }
+}
+-----------------------------------------------------------------------------------
