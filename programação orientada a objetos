@@ -61,8 +61,8 @@ public class MyClass {
     System.out.println("Insira o percentual do imposto: ");
     percImp = input.nextDouble();
     
-    pDependentes = ((dependentes * 10.00) / 100);
-    salarioB = (salario * (1 + pDependentes));
+    pDependentes = 1 + ((dependentes * 10.00) / 100);
+    salarioB = (salario * pDependentes);
     salarioL = (salarioB - ((salarioB / 100) * percImp));
     
     System.out.println("Seu salario liquido é: " + salarioL);
