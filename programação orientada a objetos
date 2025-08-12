@@ -15,23 +15,27 @@ java - comentarios:
 EXERCICIO 01- Crie um programa que calcule a média
 escolar das notas NP1, NP2 e INTEGRATIVA
 */
-
+import java.util.Scanner;
 
 public class MyClass {
   public static void main(String args[]) {
     // VARIAVEIS
     double media, nota1, nota2, integrativa; 
+    Scanner teclado = new Scanner(System.in);
     
     // ENTRADAS
-    nota1 = 5.00;
-    nota2 = 10.00;
-    integrativa = 8.00;
+    System.out.println("Digite a nota1: ");
+    nota1 = teclado.nextDouble();
+    System.out.println("Digite a nota2: ");
+    nota2 = teclado.nextDouble();
+    System.out.println("Digite a nota integrativa: ");
+    integrativa = teclado.nextDouble();
     
     // PROCESSAMENTO
     media = (nota1 + nota2 + integrativa) / 3;
     
     // SAIDAS
-    System.out.println(media);
+    System.out.println("a média é: " + media);
 
   }
 }
